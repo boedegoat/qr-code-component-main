@@ -14,6 +14,7 @@ body {
   background-color: var(--light-gray);
   margin: 0;
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
@@ -44,4 +45,13 @@ body {
 .card__description {
   font-size: 15px;
   color: var(--grayish-blue);
+}
+
+.attribution {
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
